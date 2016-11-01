@@ -75,7 +75,7 @@ var app = function() {
 				<div className="intro">
 					<p>Treat yourself to this week's lavish salad, rich in colourful ingredients including calcium-packed spinach for strengthening your bones and lean, marinated chicken to pump up your protein intake. With a sweet kick of healthy honey and sharp hint of balsamic, the dressing alone is bursting with flavour and is the perfect accompaniment to smooth avocado, crisp spinach and crunchy red onion. Scattered with ruby pomegranate pearls, this dish is vibrant in colour and taste - perfect for a summer treat!</p> 
 					<hr />
-					<h3>Method</h3>
+					<h3>Let's get Cooking!</h3>
 					<ol>
 						<li>Combine the marinade ingredients and generously coat the chicken on both sides. Leave it in the fridge for a minimum of two hours, but longer if you can.</li>
 						<li>Place a ridged grill pan on medium-high heat and grill the chicken for about 5 minutes per side, turning once, until cooked through.</li>
@@ -96,7 +96,7 @@ var app = function() {
 			return (
 
 				<div className="shop">
-					<h3>Ingredients</h3>
+					<h3>Have it handy...</h3>
 
 					<strong>For the marinade:</strong>
 
