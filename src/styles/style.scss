@@ -1,10 +1,159 @@
+$night: #282320;
+$light-brown: #b4a191;
+$dark-brown: #746055;
+$slate: #979fac;
+$tarmac: #3f434f;
+
+
+
+
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,500');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i');
+
+
+
+
 * {
-	font-family: Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
 }
-
+body {
+	font-family: 'Work Sans', Helvetica, Arial, Sans-Serif;
+	font-weight: 300;
+	background-image: url("../images/body_background.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	line-height: 1.7;
+}
+h1, h2, h3 {
+	font-family: 'Crete Round', Georgia, "Times New Roman", Serif;
+	font-weight: normal;
+}
 h1 {
-	font-size: 300px;
+	display:none;
+}
+h2 {
+	font-size: 3rem;
+	line-height: 1.2;
+	margin-bottom: 0;
+	color: #464a4e;
+}
+h3 {
+	font-size: 1.8rem;
+	color: $light-brown;
+}
+
+hr {
+	margin: 4rem 0;
+	height: 1px;
+	background-color: #DDD;
+	border: none;
+}
+strong {
+	display:block;
+	margin: 2rem 0 1rem;
+	font-weight: 500;
+}
+img {
+	width: 100%;
+	max-width:100%;
+}
+header {
 	text-align: center;
-	color: fuchsia;
+	height: 12rem;
+	.logo {
+		height:8rem;
+		margin:2rem 0;
+	}
+}
+
+.content {
+	background: white;
+	font-size: 0;
+	padding: 2rem 2rem 3rem;
+	.shop, .heading, .banner {
+		font-size: 1rem;
+	}
+	.heading {
+		padding: 3rem 0;
+		margin-bottom: 3rem;
+		border-bottom: 1px solid #DDD;
+	}
+	.intro {
+		font-size: 1.2rem;
+		// p {
+		// 	font-size: 1.2rem !important;
+		// }
+		p::first-letter {
+			font-size: 4rem;
+			font-family: 'Crete Round', Georgia, "Times New Roman", Serif;
+			vertical-align: text-top;
+			margin: -1.3rem .5rem -1.4rem 0;
+			float: left;
+			color: $light-brown;
+		}
+		ol {
+			padding-left: 2rem;
+			li {
+				list-style-type: decimal;
+				list-style-position: outside;
+			}
+		}
+	}
+	.shop {
+		
+	}
+}
+
+footer {
+	text-align: center;
+	padding: 3rem;
+	color: white;
+}
+
+
+@media ( min-width: 768px ) {
+	.banner {
+		height: 24rem;
+		overflow:hidden;
+	}
+
+	.intro, .shop {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.intro {
+		padding-right: 2rem;
+		width: 60%;
+		hr.last {
+			display: none;
+		}
+	}
+	.shop {
+		padding-left: 2rem;
+		width: 40%;
+		ul {
+			padding-left: 1.5rem;
+		}
+		li {
+			list-style-type: circle;
+			list-style-position: outside;
+		}
+	}
+}
+
+@media ( min-width: 1280px ) {
+	.content {
+		width: 1280px;
+		margin: 0 auto;
+		padding: 3rem 3rem 6rem;
+			.intro {
+				padding-right: 20%;
+				width: 70%;
+			}
+			.shop {
+				width: 30%;
+			}
+	}
 }
