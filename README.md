@@ -1,11 +1,15 @@
 #[We are Cooking - React Version.](http://we-are-cooking.herokuapp.com)
 
- *We are Cooking* is a simple cooking website template created to teach an Intro to HTML & CSS course at The Iron Yard, Houston. The html and css structure was specifically designed to provide a broad overview of tags, style properties, syntax, inheritance and nesting.
+*We are Cooking* is a simple, responsive cooking website template created to teach an Intro to HTML & CSS course at The Iron Yard, Houston. The html and css structure was specifically designed to provide a broad overview of tags, style properties, syntax, inheritance and nesting.
 
- This specific version translates the template into a simple, single page React layout featuring multiple components and scss.
+This specific version translates the template into a simple, single page React layout featuring multiple components and scss.
 
- Live preview: http://we-are-cooking.herokuapp.com
-  
+**Live preview:** http://we-are-cooking.herokuapp.com
+
+As this template was designed to teach beginners it includes NO browser-prefixing
+
+Prefer the [HTML version](https://github.com/FranCarstens/weAreCooking--HTML/)?
+
 ##Credits
 
 * Built on: TIY Starter Kit by [Justin Richards](https://github.com/magentanova/tiy-starter-kit).
